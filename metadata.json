@@ -1,0 +1,8 @@
+{
+  "name": "CyberSinc",
+  "description": "Espelhamento de tela de alta performance para gamers. Baixa latência, controle total e qualidade 4K via USB.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
