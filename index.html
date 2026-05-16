@@ -1,13 +1,46 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSinc - Alta Performance</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="cyber-grid">
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="zap-icon">⚡</div>
+                <div>
+                    <h1>CYBER<span>SINC</span></h1>
+                    <span class="version">ULTRA LOW LATENCY V1.0</span>
+                </div>
+            </div>
+            <div class="stats" id="stats-bar" style="display: none;">
+                <div class="stat-item">
+                    <span class="dot cyan"></span>
+                    <span id="fps-counter">60 FPS</span>
+                </div>
+                <div class="stat-item">
+                    <span class="dot green"></span>
+                    <span id="latency-counter">2ms DELAY</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Dynamic Content -->
+        <main id="main-content">
+            <!-- Rendered via JS for better performance/control -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="copyright">© 2024 CyberSinc Labs • SEGURO E PLUG&PLAY</div>
+        </footer>
+    </div>
+    <script src="/src/main.js"></script>
+</body>
 </html>
 
